@@ -50,6 +50,6 @@ public class Main {
                 map.put(max, s.substring(0, i + 1));
             }
         }
-        System.out.println("Chuoi co cac ki tu khac nhau dai nhat: " + map.get(max));
+        System.out.println("Longest string: " + map.get(max));
     }
 }
